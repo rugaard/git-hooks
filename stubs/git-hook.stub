@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Get path of PHP binary.
+PHP_BINARY="$(which php)"
+
+# Execute git-hook application.
+$PHP_BINARY $PWD/vendor/bin/git-hooks hook:GIT_HOOK_NAME $@

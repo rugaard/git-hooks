@@ -1,0 +1,8 @@
+/vendor
+/.idea
+index.php
+composer.phar
+composer.lock
+git-hooks.config.json
+.DS_Store
+.phpunit.result.cache

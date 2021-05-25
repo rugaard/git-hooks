@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+require getcwd() . '/vendor/autoload.php';
+
+use Rugaard\GitHooks\Application;
+
+$application = new Application('Git hooks', '1.0.1');
+$application->run();
